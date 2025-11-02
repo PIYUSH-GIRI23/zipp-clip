@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "my-node-app",
+  "name": "my-node-app-2",
   "builds": [
     {
       "src": "server.js",
