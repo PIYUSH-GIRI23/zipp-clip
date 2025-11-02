@@ -15,7 +15,9 @@ app.use(cors({
     origin: '*'
 }));
 
-
+app.get('/', (req, res) => {
+    res.send('Clip Service is running');
+});
 app.use(express.json());
 
 app.use('/', manageClip);
